@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 body {
-    background: black;
+    background: #252525;
 }
 .box{
-  background: #252525;
+  background: white;
   font-size: 10px;
   color: white;
   display: flex;
@@ -73,4 +73,21 @@ li{
 a{
   color: black;
   text-decoration: none;
+}
+header{
+  padding-bottom: 60px;
+}
+.box-main{
+  padding: 20px;
+  background: white;
+  display: flex;
+  flex-flow: column wrap;
+}
+#titulo-box-main{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  letter-spacing: 3px;
+  text-decoration: underline;
 }
