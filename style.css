@@ -1,0 +1,71 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+    background: #252525;
+}
+.box{
+  font-size: 10px;
+  color: white;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  color: black;
+  background-color: white;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+.image{
+  display: flex;
+  flex-flow: row nowrap;
+}
+#logo{
+  width: 130px;
+  margin: auto;
+}
+#titulo{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 5px;
+}
+#subt{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+#pett{
+  font-size: 30px;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+}
+#pte{
+  letter-spacing: 5px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+#web{
+  letter-spacing: 2px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+.men{
+  font-size: 25px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+ul{
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: center;
+}
+li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
