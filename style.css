@@ -5,7 +5,7 @@
 }
 body {
     background: #252525;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .box{
   background: white;
@@ -111,7 +111,15 @@ header{
   margin-top: 30px;
   flex-flow: column wrap;
 }
-
+.caixa3{
+  background-color: #ccc;
+  height: 25vh;
+  width: 40vh;
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  flex-flow: column wrap;
+}
 @media (min-width: 750px) {
 body {
     background: #252525;
