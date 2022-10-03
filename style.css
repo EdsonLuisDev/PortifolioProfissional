@@ -127,6 +127,33 @@ scroll-page {
   height: 100%;
   font-size: 5em;
 }
+.box-sobre{
+  margin-top: 30px;
+  background: white;
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+#minhaft{
+  border: 5px solid black;
+  height: 300px;
+  width: 300px;
+  padding: 3px;
+  border-radius: 100%;
+  display: flex;
+  margin: auto;
+}
+#nome{
+  display: flex;
+  margin: auto;
+}
+#sobre{
+  display: flex;
+  margin: auto;
+  padding-top:20px;
+  padding-bottom: 10px;
+}
 @media (min-width: 750px) {
 body {
     background: #252525;
@@ -235,5 +262,39 @@ header{
   margin-top: 30px;
   flex-flow: column wrap;
 }
-
+scroll-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 5em;
+}
+.box-sobre{
+  margin-top: 60px;
+  background: white;
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+#minhaft{
+  border: 10px solid black;
+  height: 700px;
+  width: 700px;
+  padding: 5px;
+  border-radius: 100%;
+  display: flex;
+  margin: auto;
+}
+#nome{
+  display: flex;
+  font-size: 60px;
+  margin: auto;
+}
+#sobre{
+  display: flex;
+  margin: auto;
+  padding-top:20px;
+  padding-bottom: 30px;
+}
 }
