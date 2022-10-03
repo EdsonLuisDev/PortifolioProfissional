@@ -1,3 +1,4 @@
+
 *{
   margin: 0px;
   padding: 0px;
@@ -58,7 +59,7 @@ body {
 }
 .men{
   font-size: 25px;
-  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-family: Gill Sans, sans-serif;
 }
 ul{
   display: flex;
@@ -84,15 +85,15 @@ header{
   background: white;
   display: flex;
   flex-flow: column wrap;
+  text-align: center;
+  font-family: Andale Mono, monospace;
 }
 #titulo-box-main{
-  font-size: 50px;
+  font-size: 40px;
   padding-bottom: 30px;
   display: flex;
   justify-content: center;
-  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
-  letter-spacing: 3px;
-  text-decoration: underline;
+  font-family: Andale Mono, monospace;
 }
 .caixa{
   background-color: #ccc;
@@ -134,6 +135,7 @@ scroll-page {
   padding: 20px;
   flex-wrap: wrap;
   text-align: center;
+  font-family: Gill Sans, sans-serif;
 }
 #minhaft{
   border: 5px solid black;
@@ -210,7 +212,7 @@ body {
 }
 .men{
   font-size: 55px;
-  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-family: Gill Sans, sans-serif;
 }
 ul{
   display: flex;
@@ -236,14 +238,14 @@ header{
   background: white;
   display: flex;
   flex-flow: column wrap;
+  text-align: center;
 }
 #titulo-box-main{
-  font-size: 85px;
+  font-size: 75px;
   padding-bottom: 30px;
   display: flex;
   justify-content: center;
-  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
-  letter-spacing: 5px;
+  font-family: Andale Mono, monospace;
 }
 .caixa{
   background-color: #ccc;
@@ -276,6 +278,7 @@ scroll-page {
   padding: 20px;
   flex-wrap: wrap;
   text-align: center;
+  font-family: Gill Sans, sans-serif;
 }
 #minhaft{
   border: 10px solid black;
