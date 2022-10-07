@@ -5,8 +5,22 @@
   box-sizing: border-box;
 }
 body {
-    background: #252525;
+    background: linear-gradient(-45deg, #120c56, #252525, cyan) no-repeat;
+    animation: anime 3s ease-in infinite alternate;
+    background-size: 600% 600%;
     margin-bottom: 30px;
+    animation: anime 3s ease infinite alternate;
+}
+@keyframes anime{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
 }
 .box{
   background: white;
